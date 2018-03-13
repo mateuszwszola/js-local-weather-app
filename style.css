@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Lato|Raleway');
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+body {
+  background-color: #2c3e50;
+  color: #fff;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Francois One', sans-serif;
+}
+
+.weather-container {
+  padding: 1rem 0;
+  border-bottom: 1px solid #fff;
+  font-size: 1.5rem;
+}
+
+.author {
+  font-family: 'Raleway', sans-serif;
+}
